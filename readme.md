@@ -21,6 +21,10 @@ https://git.heroku.com/gitman-auth.git
 
 https://github.com/LishuGupta652/express-auth-re
 
+## pushing the code to heroku and git
+
+`git push heroku main && git push origin main `
+
 ## author
 
 ### lishugupta652
