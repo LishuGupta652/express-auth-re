@@ -14,8 +14,8 @@ create a `.env` file and past the MONGO_URI variable from mongodb atlast to make
 
 ## heroku
 
-https://salty-falls-06176.herokuapp.com/
-https://git.heroku.com/salty-falls-06176.git
+https://gitman-auth.herokuapp.com/
+https://git.heroku.com/gitman-auth.git
 
 ## gihub repo
 
