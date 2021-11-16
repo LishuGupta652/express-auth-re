@@ -1,7 +1,12 @@
 const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 3000;
-
+const mongoose = require("mongoose");
+const dotenv = require("dotenv").config();
+// Connecting to mongoose database
+mongoose.connect(process.env.MONGO_URI, () => {
+  console.log("Connected to the Database");
+});
 // Importing the routes
 const authRoutes = require("./routes/authRoutes");
 
