@@ -22,7 +22,12 @@ app.use("/api/post", postRoutes);
 app.get("/", (req, res) => {
   res.status(200).json({
     mesage: "Welcome to the world, Hey there the Georgeous friends!",
-    routes: [],
+    routes: ["/api/user/register", "/api/user/login", "api/post"],
+    schemaForRegister: {
+      name: "name",
+      email: "email",
+      password: "password",
+    },
   });
 });
 
